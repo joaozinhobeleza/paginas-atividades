@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Gerador de Senhas Aleatórias</title>
+  <link rel="stylesheet" href="geradordesenhas.css">
+</head>
+<body>
+  <main>
+    <h1>Gerador de Senhas Aleatórias</h1>
+    <label for="tamanho">Escolha o tamanho da senha:</label>
+    <input type="number" id="tamanho" min="6" max="20" value="8">
+    <button onclick="gerarSenha()">Gerar Senha</button>
+    <div id="senha"></div>
+  </main>
+  <script src="geradordesenhas.js"></script>
+</body>
+</html>

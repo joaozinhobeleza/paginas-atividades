@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Cadastro com Validação</title>
+  <link rel="stylesheet" href="cadastrocomvalicao.css">
+</head>
+<body>
+  <main>
+    <h1>Cadastro de Usuário</h1>
+    <form id="formulario" onsubmit="validarFormulario(event)">
+      <input type="text" id="nome" placeholder="Nome completo" />
+      <input type="email" id="email" placeholder="E-mail" />
+      <input type="password" id="senha" placeholder="Senha" />
+      <button type="submit">Cadastrar</button>
+      <div id="mensagem"></div>
+    </form>
+  </main>
+  <script src="cadastrocomvalidacao.js"></script>
+</body>
+</html>

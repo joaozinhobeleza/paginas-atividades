@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Simulador de Caixa Eletrônico</title>
+  <link rel="stylesheet" href="simuladordecaixaeletronico.css">
+</head>
+<body>
+  <main>
+    <h1>Simulador de Caixa Eletrônico</h1>
+    <label for="valor">Digite o valor a ser sacado (R$):</label>
+    <input type="number" id="valor" placeholder="Valor do saque" min="2">
+    <button onclick="calcularNotas()">Calcular</button>
+    <div id="resultado"></div>
+  </main>
+  <script src="simuladordecaixaeletronico.js"></script>
+</body>
+</html>

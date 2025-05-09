@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Simulador de Semáforo</title>
+  <link rel="stylesheet" href="simuladordesemafaro.css">
+</head>
+<body>
+  <main>
+    <h1>Simulador de Semáforo</h1>
+    <div id="semaforo" class="semaforo">
+      <div id="vermelho" class="luz"></div>
+      <div id="amarelo" class="luz"></div>
+      <div id="verde" class="luz"></div>
+    </div>
+    <div id="botoes">
+      <button onclick="mudarLuz('vermelho')">Vermelho</button>
+      <button onclick="mudarLuz('amarelo')">Amarelo</button>
+      <button onclick="mudarLuz('verde')">Verde</button>
+    </div>
+  </main>
+  <script src="simuladordesemafaro.js"></script>
+</body>
+</html>

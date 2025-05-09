@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Simulador de Notas Escolares</title>
+  <link rel="stylesheet" href="simuladordenotasescolares.css">
+</head>
+<body>
+  <main>
+    <h1>Simulador de Notas Escolares</h1>
+    <p>Digite pelo menos 3 notas e clique em "Calcular".</p>
+    
+    <div>
+      <input type="number" id="nota1" placeholder="Nota 1" max="10"/>
+      <input type="number" id="nota2" placeholder="Nota 2" max="10"/>
+      <input type="number" id="nota3" placeholder="Nota 3" max="10"/>
+      <input type="number" id="nota4" placeholder="Nota 4 (opcional)" max="10"/>
+    </div>
+
+    <button onclick="calcularMedia()">Calcular</button>
+
+    <div id="resultado"></div>
+  </main>
+  <script src="simuladordenotasescolares.js"></script>
+</body>
+</html>

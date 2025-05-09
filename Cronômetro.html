@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cronômetro</title>
+  <link rel="stylesheet" href="cronometro.css">
+</head>
+<body>
+  <main>
+    <h1>Cronômetro</h1>
+    <div id="tempo">00:00</div>
+    <div id="controles">
+      <button onclick="iniciarCronometro()" id="iniciar">Iniciar</button>
+      <button onclick="pausarCronometro()" id="pausar" disabled>Pausar</button>
+      <button onclick="zerarCronometro()" id="zerar">Zerar</button>
+    </div>
+  </main>
+  <script src="cronometro.js"></script>
+</body>
+</html>
